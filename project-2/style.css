@@ -1,0 +1,223 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ /* Navigation bar  */
+ .navbar {
+     display: flex;
+     align-items: center;
+     background-color: gray;
+     opacity: 0.5;
+ }
+
+ nav ul {
+     display: flex;
+     align-items: center;
+ }
+
+ nav ul li {
+     list-style: none;
+     padding: 1vh 1vw;
+     margin-left: 13px;
+ }
+
+ .logo1{
+     height: 70px;
+     width: 70px;
+     border-radius: 250px;
+     margin-left:1vw;
+     display: flex;
+     align-items: center;
+ }
+ img{
+    height: 70px;
+    width: 70px;
+    border-radius: 250px;
+    margin-left: 0vw;
+    }
+ 
+
+ li a {
+     text-decoration: none;
+     color: white;
+ }
+
+ #search input {
+     display: flex;
+     /* text-align: center; */
+     margin: 0px 10vw;
+     /* width: 700px; */
+ }
+
+ #search1 {
+     display: flex;
+     margin: 0px 1vh;
+     width: 23vw;
+     padding: 4px;
+     align-items: center;
+     text-align: center;
+     justify-content: center;
+     background-color: #deded8;
+     opacity: 0.5;
+ }
+
+ .btn {
+     width: 70px;
+ }
+
+ /* Containers spesal */
+ .container{
+        content: "";
+        background: url('img/bg1.webp') no-repeat center center/cover;
+        position: relative;
+        height: 520px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.79;
+        top: 0px;
+        left: 0px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));        
+        margin-top: 6px
+ }
+ .container11{
+        content: "";
+        background: url('img/bg33.jpg') no-repeat center center/cover;
+        position: relative;
+        height: 520px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.8;
+        top: 0px;
+        left: 0px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));        
+        margin-top: 6px
+ }
+ .container12{
+        content: "";
+        background: url('img/bg34.webp') no-repeat center center/cover;
+        position: relative;
+        height: 520px;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.79;
+        top: 0px;
+        left: 0px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        color: white;
+        grid-gap: 1rem;
+        grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));        
+        margin-top: 6px
+ }
+ .box {
+     padding: 25px;
+ }
+ .item{
+    display: grid;
+    justify-content: center;
+ }
+        #font1{
+        font-size: 40px;
+        }
+        #para1{
+        font-size: 17px;
+        width: 100%;
+        text-align: center;
+        }
+  
+/* container1 */
+.container1{
+    /* background-color: #f1cfcf; */
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    margin-top: 6px;
+    justify-content: center;
+    text-align: center;
+}
+
+.container2{
+    background-color: #f2e7e7;
+    height:100%;
+    display:flex;
+    flex-wrap: wrap;
+   
+
+}
+.box2{
+   
+    height: 450px;
+    width: 314px;
+    background-color: #ac3d3d;
+    margin: 10px;
+    border-radius: 10px;
+   
+}
+.img2{
+    height: 200px;
+    width: 200px;
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 27px;
+    margin-left: 55px;
+}
+#font2{
+    margin-top: 20px;
+    text-align: center;
+}
+.para2{
+margin-top: 10px;
+    text-align: center;
+    margin: 10px;
+}
+.heading{
+    /* display: block;
+    align-items: center;
+    justify-content: center; */
+    text-align: center;
+}
+
+.burger {
+    display: none;
+    position: absolute;
+    cursor: pointer;
+    right: 5%;
+    top: 15px;
+}
+
+.line {
+    width: 33px;
+    background-color: white;
+    height: 4px;
+    margin: 5px 3px;
+    border-radius: 4px;
+}
+.footer {
+    background-color: black;
+    color: white;
+}
+
+.para {
+    margin: 5px 20px;
+}
+
+    
+ 
+ 
